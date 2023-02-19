@@ -1,0 +1,14 @@
+Exercise: reading from more than one Array and writing to one file:
+
+Store 10 firstnames, lastnames and ages(int) in 3 arrays. 
+Use the first two array element contents to populate elements in a fourth array called nameLengths. Check its content using sout.
+Write the contents of the four arrays into a textfile. Each line should have the format: lastName ", " firstName "\t" age "\t" nameLength.
+Check textfile when finished. 
+See "WEEK BEGINNING 230123" resources on writing to a file.
+
+Stretch Yourself!
+
+Suppose you have a textfile with records formatted the same way as the records written into the file in the previous question.
+Suppose you were getting more data from the user via keyboard and storing them into a relevant set of arrays.
+How might you write both sets of records into a new file, so that the records are sorted by firstname?
+(Assume all firstnames are unique).
